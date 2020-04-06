@@ -5,8 +5,6 @@
 // – свой возраст в числовом виде;
 console.log('Vitalii');
 console.log(27);
-console.log('My cat name is Blanco');
-
 // Задание к уроку 1.1.3
 
 // – Добавить комменарий перед первым выводом в консоль;
@@ -24,10 +22,10 @@ console.log('Да, убери же ты их наконец!!!');
 
 console.log('/*Значение*/', typeof('/*Значение*/'));
 // '/*Значение*/' заменяем на необходимое значение определенного типа данных.
-console.log(7, typeof 7);
+console.log(7, typeof (7);
 console.log('cycle', typeof('cycle'));
 console.log(true, typeof(true));
-console.log('null', typeof(null));
+console.log( , typeof(null));
 console.log(undeclaredVariable, typeof(undeclaredVariable));
 
 // Задание к уроку 1.1.5
@@ -53,14 +51,14 @@ console.log('Hello ' + 'Smartians');
 //
 // – посчитайте длину строки 'Share your knowledge', результат выведите в консоль.
 console.log('Share your knowledge'.length);
-
+console.log(length); // ответ 20
 
 // Задание к уроку 1.1.8
 // –– приведите строку ‘My name is’ + ‘Your name’ к UpperCase (все буквы большие);
 // –– учимся гуглить, на сайте https://developer.mozilla.org/ находим метод объекта String,
 // который удаляет лишние пробелы из строки ‘     I love study JS on Smartians platform    ’.
-console.log('My name is ' + 'Your name'.toUpperCase());
-console.log('     I love study JS on Smartians platform    '.trim());
+console.log(‘My name is’ + ‘Your name’.toUpperCase());
+String.prototype.trim(‘     I love study JS on Smartians platform    ’);
 /* Или так?
 var orig = ‘     I love study JS on Smartians platform    ’;
 console.log(orig.trim());
@@ -70,34 +68,32 @@ console.log(orig.trim());
 // –– вывести на экран случайное число от 0 до 200
 // –– найдите подходящий метод у объекта Math, который вернет наименьшее целое число, большее или равное полученному выше числу.
 // –– с помощью совйства у объекта Number, проверте что ваше полученное число –– целое.
-let number = Math.random()*200;
-let method = Math.ceil;
-console.log(number);
-console.log(method(number));
-console.log(Number.isInteger(method(number)));
+console.log(Math.random()*200);
+Math.floor(Math.random()*200));
+Number.isInteger(Math.floor(Math.random()*200));)
 
 // Задание к уроку 1.2.2.
 // –– Объявите переменную myFood со значением 'sushi';
 // –– Объявите переменную numOfRollSlices со значением 6;
 // –– Полученные значения выведите в консоль.
 let myFood = 'sushi';
-let numOfRollSlices = 6;
-console.log(numOfRollSlices(myFood));
+let numofRollSlices = 6;
+console.log(numofRollSlices '+'myFood);
 
 // Задание к уроку 1.2.3.
 // –– Объявите переменную let с именем iKnowJs и присвойте значение false;
 // –– Выведите значение в консоль
 // –– Затем присвойте переменной значение true и снова выведите в консоль.
-let iKnowJs = false;
+const iKnowJs = false;
 concole.log(iKnowJs);
-let iKnowJs = false;
+let iKnowJs = true;
 concole.log(iKnowJs);
 
 // Задание к уроку 1.2.4.
 // –– объявите константу myName и присвойте ей значение с вашим именем;
 // –– переприсвоить значение константы и посмотреть в консоль. Должна быть ошибка (TypeError: Assignment to constant variable.).
-const myName = 'Vitalii';
-myName = 'Viktor';
+const myName = Vitalii;
+let Vitalii = (TypeError: Assignment to constant variable.);
 console.log(myName);
 
 // Задание к уроку 1.2.5
@@ -108,10 +104,11 @@ let multiplyMe = 32; // умножь на 3
 let quarterMe = 1152; // раздели на 3
 
 // Используйте сокращенные математические операторы ниже
-plusMe += 10;
-subTrackMe -= 100;
-multiplyMe *= 3;
-quarterMe /= 3;
+
+
+
+
+
 
 // Проверь результат ниже
 console.log('The value of levelUp:', plusMe);
